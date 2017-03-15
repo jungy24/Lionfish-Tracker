@@ -12,9 +12,7 @@ class ViewController: UIViewController {
 
     
     @IBOutlet weak var backView: UIImageView!
-    @IBOutlet weak var recordDataView: UIImageView!
-    @IBOutlet weak var learnView: UIImageView!
-    @IBOutlet weak var aboutUsView: UIImageView!
+    
     
     
     
@@ -22,9 +20,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        learnView.image = #imageLiteral(resourceName: "lionfish1")
-        recordDataView.image = #imageLiteral(resourceName: "record1")
-        aboutUsView.image = #imageLiteral(resourceName: "blackboard1")
+        
         
     }
 
