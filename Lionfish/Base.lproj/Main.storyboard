@@ -31,26 +31,35 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PD2-OA-bH9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PD2-OA-bH9">
                                 <rect key="frame" x="5" y="71" width="365" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="record1"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="191" id="Nba-YV-LJY"/>
+                                    <constraint firstAttribute="width" constant="365" id="rqH-lW-Vd4"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="record1"/>
                                 <connections>
                                     <segue destination="Mpa-jl-Rqe" kind="show" id="Afm-r2-7uY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qf-0M-Cna" userLabel="Effects Button">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Qf-0M-Cna" userLabel="Effects Button">
                                 <rect key="frame" x="5" y="271" width="365" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="lionfish1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="365" id="7WO-gV-OkV"/>
+                                    <constraint firstAttribute="height" constant="191" id="Ev3-9u-Zuw"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="lionfish1"/>
                                 <connections>
                                     <segue destination="cJk-EO-DuJ" kind="show" id="CLX-Ph-ddz"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyW-ou-BhY" userLabel="About Button">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hyW-ou-BhY" userLabel="About Button">
                                 <rect key="frame" x="5" y="470" width="365" height="191"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button" backgroundImage="blackboard1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="365" id="3Ov-Pc-Edb"/>
+                                    <constraint firstAttribute="height" constant="191" id="Oep-Ep-gA6"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="blackboard1"/>
                                 <connections>
                                     <segue destination="UW5-wY-Ehh" kind="show" id="5Rv-Ft-Yxo"/>
                                 </connections>
@@ -78,12 +87,20 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="PD2-OA-bH9" secondAttribute="trailing" constant="5" id="3gZ-Fl-kyW"/>
+                            <constraint firstItem="hyW-ou-BhY" firstAttribute="top" secondItem="2Qf-0M-Cna" secondAttribute="bottom" constant="8" id="7lQ-Sk-PUM"/>
+                            <constraint firstItem="PD2-OA-bH9" firstAttribute="leading" secondItem="kRS-Po-pHQ" secondAttribute="leading" constant="5" id="8ZH-hm-fGD"/>
+                            <constraint firstItem="hyW-ou-BhY" firstAttribute="leading" secondItem="kRS-Po-pHQ" secondAttribute="leading" constant="5" id="C49-tc-gSa"/>
+                            <constraint firstAttribute="trailing" secondItem="2Qf-0M-Cna" secondAttribute="trailing" constant="5" id="TVd-He-5uo"/>
+                            <constraint firstItem="2Qf-0M-Cna" firstAttribute="leading" secondItem="kRS-Po-pHQ" secondAttribute="leading" constant="5" id="VuH-gD-gar"/>
+                            <constraint firstItem="2Qf-0M-Cna" firstAttribute="top" secondItem="PD2-OA-bH9" secondAttribute="bottom" constant="9" id="niK-G3-6wQ"/>
+                            <constraint firstItem="m6Q-0Q-A4d" firstAttribute="top" secondItem="hyW-ou-BhY" secondAttribute="bottom" constant="6" id="pe0-sP-Erl"/>
+                            <constraint firstItem="PD2-OA-bH9" firstAttribute="top" secondItem="0ZT-V9-nz4" secondAttribute="bottom" constant="7" id="vSI-Fq-zQd"/>
+                            <constraint firstAttribute="trailing" secondItem="hyW-ou-BhY" secondAttribute="trailing" constant="5" id="wgc-P9-8SN"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Invasive Species - Lionfish" id="hqa-UE-2Uf"/>
-                    <connections>
-                        <outlet property="backView" destination="5wX-VA-qDD" id="fft-iH-Azp"/>
-                        <outlet property="dataButton" destination="PD2-OA-bH9" id="cg5-yJ-oqd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -326,7 +343,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Finish"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="dqG-26-iqx"/>
+                                    <segue destination="3c7-bY-4uB" kind="show" id="8FL-GQ-huZ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -518,7 +535,6 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="bGS-wV-mOo"/>
-        <segue reference="dqG-26-iqx"/>
         <segue reference="eMv-ea-mZ0"/>
     </inferredMetricsTieBreakers>
 </document>
