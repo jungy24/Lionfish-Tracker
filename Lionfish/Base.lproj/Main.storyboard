@@ -12,7 +12,7 @@
         <!--Invasive Species - Lionfish-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0ZT-V9-nz4"/>
                         <viewControllerLayoutGuide type="bottom" id="m6Q-0Q-A4d"/>
@@ -109,7 +109,7 @@
         <!--View Controller-->
         <scene sceneID="Up5-eF-3z7">
             <objects>
-                <viewController id="Mpa-jl-Rqe" sceneMemberID="viewController">
+                <viewController id="Mpa-jl-Rqe" customClass="Q1ViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Bc3-kG-6Fw"/>
                         <viewControllerLayoutGuide type="bottom" id="3qK-rQ-7jz"/>
@@ -152,7 +152,7 @@
         <!--View Controller-->
         <scene sceneID="Hcb-le-Ij3">
             <objects>
-                <viewController id="OfF-A1-ypv" sceneMemberID="viewController">
+                <viewController id="OfF-A1-ypv" customClass="Q2ViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tp6-GU-Jx7"/>
                         <viewControllerLayoutGuide type="bottom" id="LjA-Hf-EYj"/>
@@ -222,7 +222,7 @@
         <!--View Controller-->
         <scene sceneID="fFX-0f-Lo6">
             <objects>
-                <viewController id="udx-hn-b6U" sceneMemberID="viewController">
+                <viewController id="udx-hn-b6U" customClass="Q3ViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tqQ-xm-FZh"/>
                         <viewControllerLayoutGuide type="bottom" id="vfo-h5-gW8"/>
@@ -278,7 +278,7 @@
         <!--View Controller-->
         <scene sceneID="wDq-nn-Go6">
             <objects>
-                <viewController id="12o-o4-fAM" sceneMemberID="viewController">
+                <viewController id="12o-o4-fAM" customClass="Q4ViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i6e-nT-DcY"/>
                         <viewControllerLayoutGuide type="bottom" id="nok-j3-sMV"/>
@@ -321,7 +321,7 @@
         <!--View Controller-->
         <scene sceneID="W6k-t1-OcH">
             <objects>
-                <viewController id="qGF-X4-NhF" sceneMemberID="viewController">
+                <viewController id="qGF-X4-NhF" customClass="Q6ViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="siI-yE-rUZ"/>
                         <viewControllerLayoutGuide type="bottom" id="0l8-R2-OOq"/>
@@ -357,7 +357,7 @@
         <!--View Controller-->
         <scene sceneID="hXr-qL-gVH">
             <objects>
-                <viewController id="KtG-D6-H0k" sceneMemberID="viewController">
+                <viewController id="KtG-D6-H0k" customClass="Q5ViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bLM-N6-bOA"/>
                         <viewControllerLayoutGuide type="bottom" id="79R-1I-t7d"/>
@@ -455,10 +455,10 @@
             </objects>
             <point key="canvasLocation" x="5068" y="-1009.7451274362819"/>
         </scene>
-        <!--View Controller-->
+        <!--Effects View Controller-->
         <scene sceneID="ukU-wR-ClS">
             <objects>
-                <viewController id="cJk-EO-DuJ" sceneMemberID="viewController">
+                <viewController id="cJk-EO-DuJ" customClass="EffectsViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ahJ-Km-kiT"/>
                         <viewControllerLayoutGuide type="bottom" id="BYc-de-eB0"/>
@@ -482,10 +482,10 @@
             </objects>
             <point key="canvasLocation" x="1680.8" y="78.710644677661179"/>
         </scene>
-        <!--View Controller-->
+        <!--About Us View Controller-->
         <scene sceneID="ENe-Sv-cnv">
             <objects>
-                <viewController id="UW5-wY-Ehh" sceneMemberID="viewController">
+                <viewController id="UW5-wY-Ehh" customClass="AboutUsViewController" customModule="Lionfish" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Mx-oy-znQ"/>
                         <viewControllerLayoutGuide type="bottom" id="9Iz-ih-fAm"/>
